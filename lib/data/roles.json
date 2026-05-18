@@ -1,0 +1,246 @@
+[
+  {
+    "id": "kyc-analyst-edd",
+    "name": "KYC Analyst (Enhanced Due Diligence)",
+    "team": "AML Due Diligence and Investigations",
+    "band": "G",
+    "purpose": "Conducts enhanced due diligence on high-risk customers to ensure the bank has a complete and sound understanding of the customer's identity, business, source of funds, and the actual risk associated with the customer. Critical control function preventing the bank from establishing or maintaining customer relationships linked to money laundering, terrorist financing, or other financial crime.",
+    "responsibilities": [
+      "Conduct enhanced due diligence (EDD) for higher-risk customers",
+      "Review and validate customer ownership, control, and corporate/organisational structure",
+      "Assess source of funds and source of wealth where required",
+      "Perform periodic KYC reviews based on risk level",
+      "Identify discrepancies between customer information and observed behaviour",
+      "Document risk assessments and conclusions in an auditable and regulator-ready manner",
+      "Escalate suspicious indicators to AML investigations as needed"
+    ],
+    "risk_exposure": {
+      "aml": "high",
+      "sanctions": "high",
+      "fraud": "medium",
+      "documentation": "high",
+      "regulatory": "high"
+    },
+    "key_risk_themes": [
+      "Beneficial ownership and control",
+      "High-risk customer onboarding",
+      "Ongoing customer due diligence and periodic reviews",
+      "Jurisdictional and geographic risk",
+      "Documentation and audit trail",
+      "Escalation and reporting"
+    ],
+    "competency_needs": {
+      "knowledge": [
+        "Enhanced due diligence (EDD) requirements",
+        "Ownership and control structures",
+        "Source of funds and source of wealth concepts",
+        "AML typologies relevant to the bank's customers"
+      ],
+      "skills": [
+        "Analyse complex customer structures",
+        "Assess plausibility of financial explanations",
+        "Write clear, well-reasoned risk rationales",
+        "Identify red flags and inconsistencies"
+      ],
+      "judgement": [
+        "Knowing when explanations are insufficient",
+        "Escalating under uncertainty",
+        "Applying standards consistently under pressure"
+      ]
+    },
+    "applicable_amlr_articles": ["art-20", "art-21", "art-35", "art-38", "art-41", "art-76", "art-79"]
+  },
+  {
+    "id": "customer-advisor",
+    "name": "Customer Advisor",
+    "team": "Customer Operations",
+    "band": "F",
+    "purpose": "Delivers an exceptional customer experience as the primary point of contact for customers of the Bank. Handles enquiries, account queries, and service requests while upholding standards for service quality, regulatory compliance, and data protection.",
+    "responsibilities": [
+      "Respond to customer enquiries via phone, email, and digital channels",
+      "Resolve customer account queries and product-related issues",
+      "Guide customers through onboarding (ID/document collection per KYC requirements)",
+      "Recognise and escalate potential fraud or unusual customer behaviour",
+      "Log and manage customer complaints per regulatory timeframes",
+      "Update customer records accurately per GDPR and data protection policy",
+      "Support outbound customer contact for account reviews and document refreshes"
+    ],
+    "risk_exposure": {
+      "aml": "medium",
+      "sanctions": "low",
+      "fraud": "medium",
+      "documentation": "medium",
+      "regulatory": "medium"
+    },
+    "key_risk_themes": [
+      "First point of contact during onboarding — weak ID verification lets illegitimate customers enter",
+      "High volume of interactions with limited AML depth increases risk of missing red flags",
+      "Reliance on escalation protocols — failure to recognise unusual behaviour breaks chain of defence",
+      "Proximity to vulnerable customers — exposure to social engineering tactics"
+    ],
+    "competency_needs": {
+      "knowledge": [
+        "AML/KYC fundamentals for customer-facing staff",
+        "GDPR and customer data handling",
+        "Consumer Duty and complaint handling rules",
+        "Tipping-off rules and avoidance"
+      ],
+      "skills": [
+        "Identify red flags in customer interactions",
+        "Handle difficult conversations professionally",
+        "Document interactions accurately"
+      ],
+      "judgement": [
+        "Knowing when to escalate without alerting the customer",
+        "Identifying vulnerable customers",
+        "Balancing customer experience with compliance obligations"
+      ]
+    },
+    "applicable_amlr_articles": ["art-16", "art-20", "art-21", "art-22", "art-76"]
+  },
+  {
+    "id": "mlro",
+    "name": "Money Laundering Reporting Officer (MLRO)",
+    "team": "Risk and Compliance (Second Line of Defence)",
+    "band": "5",
+    "purpose": "Provides expert advisory and monitoring service to ensure compliance with rules, regulations and codes of conduct relating to Fraud and Financial Crime. Leads design, development and ongoing monitoring of the Group's Fraud and Financial Crime Risk Management arrangements.",
+    "responsibilities": [
+      "Lead design and review of the Bank's F&FC Risk Management Policies",
+      "Provide regular reports to the Chief Risk Officer and Board",
+      "Design and facilitate group-wide F&FC risk assessment",
+      "Investigate suspected fraud and financial crime cases",
+      "Review escalations (Sanctions/PEPs/Adverse media) and approve/decline per policy",
+      "Investigate and submit Suspicious Activity Reports (SARs) to the Reporting Authority",
+      "Design and deliver F&FC training content",
+      "Monitor staff compliance with F&FC training requirements",
+      "Deputise for the MLRO when required"
+    ],
+    "risk_exposure": {
+      "aml": "high",
+      "sanctions": "high",
+      "fraud": "high",
+      "documentation": "high",
+      "regulatory": "high"
+    },
+    "key_risk_themes": [
+      "Ultimate accountability for SAR submission decisions — personal criminal liability",
+      "Oversees entire financial crime framework — blind spots cascade across all lines of defence",
+      "Board-level reporting — inaccurate MI leads to strategic decisions on flawed risk data",
+      "External-facing to regulators and law enforcement — highest reputational and enforcement risk"
+    ],
+    "competency_needs": {
+      "knowledge": [
+        "Detailed operational knowledge of UK regulatory and legal financial crime requirements",
+        "Sanctions regimes and screening obligations",
+        "SAR/STR submission process and UKFIU requirements",
+        "Board reporting and governance"
+      ],
+      "skills": [
+        "Translate legislation into clear business-focused procedures",
+        "Strategic risk evaluation across organisational structures and products",
+        "Quality assurance and thematic review of 1LOD controls",
+        "Stakeholder management with regulators and law enforcement"
+      ],
+      "judgement": [
+        "When to refer to law enforcement (NCA, Action Fraud, SFO)",
+        "Approving/declining high-risk customer relationships",
+        "Resource allocation across F&FC risk priorities"
+      ]
+    },
+    "applicable_amlr_articles": ["art-11", "art-33", "art-50", "art-56", "art-76", "art-79"]
+  },
+  {
+    "id": "tm-analyst",
+    "name": "Transaction Monitoring Analyst",
+    "team": "Fraud & Financial Crime / AML Due Diligence and Investigations",
+    "band": "G",
+    "purpose": "Supports the Bank's anti-money laundering framework by reviewing and investigating transaction monitoring alerts. Assesses whether customer and partner transactions are consistent with known profiles and expected behaviour, escalating cases of concern.",
+    "responsibilities": [
+      "Review transaction monitoring alerts daily against customer risk profiles and expected behaviour",
+      "Conduct documented investigations into flagged activity",
+      "Determine whether alerts should be discounted, monitored, or escalated as suspicious",
+      "Prepare clear investigation notes for audit and compliance",
+      "Escalate cases meeting SAR threshold to the nominated officer",
+      "Identify emerging typologies in transaction activity",
+      "Maintain case management records throughout investigation lifecycle"
+    ],
+    "risk_exposure": {
+      "aml": "high",
+      "sanctions": "medium",
+      "fraud": "high",
+      "documentation": "high",
+      "regulatory": "high"
+    },
+    "key_risk_themes": [
+      "Operates at point where financial crime becomes visible — missed alerts enable layering/integration",
+      "High alert volumes increase risk of fatigue-driven errors and incorrect discounting",
+      "Inadequate investigation notes weaken audit trail and SAR quality",
+      "Delays in escalation can breach regulatory reporting timeframes"
+    ],
+    "competency_needs": {
+      "knowledge": [
+        "AML/CTF legislation and UK financial institution obligations",
+        "Money laundering typologies and red flag indicators",
+        "SAR reporting obligations and UKFIU submission process",
+        "Transaction monitoring platforms (e.g. NICE Actimize, Temenos)"
+      ],
+      "skills": [
+        "Interpret financial transaction data to identify suspicious patterns",
+        "Make well-reasoned risk-based decisions under SLA pressure",
+        "Produce clear, audit-ready investigation notes"
+      ],
+      "judgement": [
+        "Distinguishing legitimate unusual activity from genuine suspicion",
+        "When to escalate vs continue monitoring",
+        "Managing alert fatigue without compromising quality"
+      ]
+    },
+    "applicable_amlr_articles": ["art-11", "art-50", "art-76", "art-79"]
+  },
+  {
+    "id": "aml-ddi-manager",
+    "name": "AML DDI Manager",
+    "team": "AML Due Diligence and Investigations",
+    "band": "H",
+    "purpose": "Manages AML DDI issues in support of wider due diligence on Product Teams. Responsible for managing all AML/KYC searches against new and existing delivery partners and suppliers, plus coaching analyst-level team members.",
+    "responsibilities": [
+      "Manage KYC/AML search process (new requests, alerts, periodic reviews, closures/exits)",
+      "Liaise with BU Directors and Relationship managers on AML DDI processes",
+      "Manage the data asset register for GDPR compliance",
+      "Operational quality checking and first-line operational risk compliance",
+      "Coach, mentor and develop analyst-level team members",
+      "Provide cover for Senior Manager during absence"
+    ],
+    "risk_exposure": {
+      "aml": "high",
+      "sanctions": "medium",
+      "fraud": "medium",
+      "documentation": "high",
+      "regulatory": "high"
+    },
+    "key_risk_themes": [
+      "Manages AML/KYC checks on delivery partners — third-party risk is a known ML vulnerability",
+      "Oversight failures in periodic reviews can allow non-compliant partners to remain active",
+      "GDPR mismanagement of data asset register creates dual regulatory exposure",
+      "Coaching and QA responsibilities mean individual errors propagate across analyst team"
+    ],
+    "competency_needs": {
+      "knowledge": [
+        "AML and KYC across financial services",
+        "Third-party / delivery partner risk frameworks",
+        "GDPR data asset register requirements",
+        "Operational risk and SLA management"
+      ],
+      "skills": [
+        "Stakeholder management at multiple levels",
+        "Quality assurance and operational compliance",
+        "Coaching and team development"
+      ],
+      "judgement": [
+        "Escalation decisions on partner findings",
+        "Resource and priority management across team caseload"
+      ]
+    },
+    "applicable_amlr_articles": ["art-20", "art-28", "art-33", "art-50", "art-76"]
+  }
+]

@@ -1,0 +1,128 @@
+[
+  {
+    "id": "art-11",
+    "article_number": "Article 11",
+    "title": "Business-wide risk assessment",
+    "summary": "Obliged entities shall take appropriate steps, proportionate to the nature and size of their business, to identify and assess the risks of money laundering and terrorist financing to which they are exposed, taking into account risk factors including customers, countries, products, services, transactions and delivery channels. The risk assessment shall be documented, kept up to date and made available to competent authorities.",
+    "tags": ["risk assessment", "risk-based approach", "governance"],
+    "applies_to_risks": ["aml", "regulatory"],
+    "applies_to_roles": ["mlro", "tm-analyst"]
+  },
+  {
+    "id": "art-16",
+    "article_number": "Article 16",
+    "title": "Identification and verification of customer identity",
+    "summary": "Obliged entities shall identify the customer and verify the customer's identity on the basis of documents, data or information obtained from a reliable and independent source. Verification shall take place before the establishment of a business relationship or the carrying out of an occasional transaction.",
+    "tags": ["KYC", "customer identification", "onboarding"],
+    "applies_to_risks": ["aml", "documentation"],
+    "applies_to_roles": ["customer-advisor", "kyc-analyst-edd"]
+  },
+  {
+    "id": "art-20",
+    "article_number": "Article 20",
+    "title": "Customer due diligence measures",
+    "summary": "Obliged entities shall apply customer due diligence (CDD) measures when establishing a business relationship, carrying out an occasional transaction above thresholds, where there is a suspicion of ML/TF, or where there are doubts about previously obtained customer identification data. CDD comprises identifying the customer, identifying the beneficial owner, assessing the purpose and nature of the business relationship, and conducting ongoing monitoring.",
+    "tags": ["CDD", "beneficial ownership", "ongoing monitoring"],
+    "applies_to_risks": ["aml", "documentation", "regulatory"],
+    "applies_to_roles": ["kyc-analyst-edd", "customer-advisor", "aml-ddi-manager"]
+  },
+  {
+    "id": "art-21",
+    "article_number": "Article 21",
+    "title": "Information required for CDD",
+    "summary": "When applying CDD, obliged entities shall obtain and verify the name, date and place of birth, residential address, nationality of the customer (or for legal entities: name, legal form, registered office, principal place of business, directors and beneficial owners). The information shall be verified on the basis of documents, data or information from a reliable and independent source.",
+    "tags": ["CDD", "documentation", "verification"],
+    "applies_to_risks": ["aml", "documentation"],
+    "applies_to_roles": ["kyc-analyst-edd", "customer-advisor"]
+  },
+  {
+    "id": "art-22",
+    "article_number": "Article 22",
+    "title": "Timing of customer due diligence",
+    "summary": "Identification and verification of the customer and the beneficial owner shall take place before the establishment of a business relationship or the carrying out of an occasional transaction. By way of derogation, verification may be completed during the establishment of a business relationship if necessary not to interrupt the normal conduct of business, where there is little risk of ML/TF and provided that verification is completed as soon as practicable.",
+    "tags": ["onboarding", "timing", "CDD"],
+    "applies_to_risks": ["aml", "documentation"],
+    "applies_to_roles": ["customer-advisor"]
+  },
+  {
+    "id": "art-28",
+    "article_number": "Article 28",
+    "title": "Reliance on third parties for CDD",
+    "summary": "Member States may permit obliged entities to rely on third parties to meet the CDD requirements set out in Article 20. The ultimate responsibility for meeting those requirements shall remain with the obliged entity which relies on the third party. Information shall be obtained immediately from the third party and copies of identification data shall be made available without delay upon request.",
+    "tags": ["third party", "delivery partner", "outsourcing"],
+    "applies_to_risks": ["aml", "regulatory"],
+    "applies_to_roles": ["aml-ddi-manager"]
+  },
+  {
+    "id": "art-33",
+    "article_number": "Article 33",
+    "title": "Internal policies, controls and procedures",
+    "summary": "Obliged entities shall put in place policies, controls and procedures, proportionate to their nature and size, to mitigate and manage effectively the risks of money laundering and terrorist financing identified at Union level, Member State level and at the level of the obliged entity. These shall include risk management practices, CDD, reporting, record-keeping, internal control, compliance management and employee screening.",
+    "tags": ["internal policies", "governance", "compliance management"],
+    "applies_to_risks": ["aml", "regulatory", "documentation"],
+    "applies_to_roles": ["mlro", "aml-ddi-manager"]
+  },
+  {
+    "id": "art-35",
+    "article_number": "Article 35",
+    "title": "Enhanced customer due diligence",
+    "summary": "Obliged entities shall apply enhanced customer due diligence (EDD) measures in cases of higher risk of ML/TF, including: complex and unusually large transactions; unusual patterns of transactions with no apparent economic or lawful purpose; business relationships with PEPs; customers from high-risk third countries. EDD includes additional information on the customer and the beneficial owner, on the intended nature of the business relationship, and on the source of funds and source of wealth.",
+    "tags": ["EDD", "high-risk", "source of funds", "source of wealth"],
+    "applies_to_risks": ["aml", "sanctions", "regulatory"],
+    "applies_to_roles": ["kyc-analyst-edd"]
+  },
+  {
+    "id": "art-38",
+    "article_number": "Article 38",
+    "title": "Politically Exposed Persons (PEPs)",
+    "summary": "Where business relationships involve a PEP, obliged entities shall have approval from senior management for establishing or continuing the relationship, take adequate measures to establish the source of wealth and source of funds, and conduct enhanced ongoing monitoring. The same requirements apply to family members and known close associates of PEPs.",
+    "tags": ["PEP", "EDD", "screening"],
+    "applies_to_risks": ["aml", "sanctions"],
+    "applies_to_roles": ["kyc-analyst-edd"]
+  },
+  {
+    "id": "art-41",
+    "article_number": "Article 41",
+    "title": "High-risk third countries",
+    "summary": "With respect to business relationships or transactions involving high-risk third countries identified by the Commission, obliged entities shall apply enhanced due diligence measures, including obtaining additional information on the customer and beneficial owner, on the intended nature of the business relationship, and on the source of funds and wealth of the customer and beneficial owner.",
+    "tags": ["EDD", "geographic risk", "high-risk jurisdictions"],
+    "applies_to_risks": ["aml", "sanctions"],
+    "applies_to_roles": ["kyc-analyst-edd"]
+  },
+  {
+    "id": "art-50",
+    "article_number": "Article 50",
+    "title": "Internal control functions",
+    "summary": "Obliged entities shall establish independent internal control functions to monitor compliance with internal AML/CFT policies and procedures. The internal audit function shall test the adequacy and effectiveness of the policies, controls and procedures.",
+    "tags": ["internal control", "audit", "QA"],
+    "applies_to_risks": ["regulatory", "documentation"],
+    "applies_to_roles": ["mlro", "tm-analyst", "aml-ddi-manager"]
+  },
+  {
+    "id": "art-56",
+    "article_number": "Article 56",
+    "title": "AML/CFT Compliance Officer",
+    "summary": "Obliged entities shall designate one member of the management body responsible for ensuring compliance with AML/CFT legislation. They shall appoint a compliance officer at management level responsible for day-to-day operation of the AML/CFT policies, who shall be the point of contact with the FIU and competent authorities. The compliance officer shall have direct access to all information necessary to perform their function.",
+    "tags": ["governance", "MLRO", "compliance officer"],
+    "applies_to_risks": ["regulatory"],
+    "applies_to_roles": ["mlro"]
+  },
+  {
+    "id": "art-76",
+    "article_number": "Article 76",
+    "title": "Training of staff",
+    "summary": "Obliged entities shall take measures proportionate to their risks, nature and size so that their employees, and where applicable agents and distributors, are aware of the obligations under this Regulation. These measures shall include participating in special ongoing training programmes that are tailored to the role and risk exposure of the employee, helping them recognise activities which may be related to ML/TF and instructing them how to proceed in such cases. Training shall be documented and kept up to date.",
+    "tags": ["training", "competency", "ongoing"],
+    "applies_to_risks": ["regulatory"],
+    "applies_to_roles": ["kyc-analyst-edd", "customer-advisor", "mlro", "tm-analyst", "aml-ddi-manager"]
+  },
+  {
+    "id": "art-79",
+    "article_number": "Article 79",
+    "title": "Reporting of suspicious transactions",
+    "summary": "Obliged entities and their directors and employees shall cooperate fully with the FIU by promptly reporting to the FIU, on their own initiative, where they know, suspect or have reasonable grounds to suspect that funds are the proceeds of criminal activity or are related to terrorist financing. They shall provide the FIU with all necessary information, directly or indirectly, at its request.",
+    "tags": ["SAR", "reporting", "escalation"],
+    "applies_to_risks": ["aml", "regulatory"],
+    "applies_to_roles": ["kyc-analyst-edd", "mlro", "tm-analyst"]
+  }
+]
